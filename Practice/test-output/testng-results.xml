@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9556" started-at="2019-07-15T16:49:20Z" finished-at="2019-07-15T16:49:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9556" started-at="2019-07-15T16:49:20Z" finished-at="2019-07-15T16:49:29Z">
+      <class name="com.ActiTime.TestScript.LoginTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.ActiTime.TestScript.LoginTest@26653222]" name="configBS" is-config="true" duration-ms="45" started-at="2019-07-15T22:19:20Z" finished-at="2019-07-15T22:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.ActiTime.TestScript.LoginTest@26653222]" name="configBC" is-config="true" duration-ms="5379" started-at="2019-07-15T22:19:20Z" finished-at="2019-07-15T22:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.ActiTime.TestScript.LoginTest@26653222]" name="configBM" is-config="true" duration-ms="1137" started-at="2019-07-15T22:19:25Z" finished-at="2019-07-15T22:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="FAIL" signature="LoginActiTime()[pri:0, instance:com.ActiTime.TestScript.LoginTest@26653222]" name="LoginActiTime" duration-ms="7" started-at="2019-07-15T22:19:26Z" finished-at="2019-07-15T22:19:26Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.ActiTime.ObjectRepo.Login_POM_Class.getUserName(Login_POM_Class.java:19)
+	at com.ActiTime.TestScript.LoginTest.LoginActiTime(LoginTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginActiTime -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.ActiTime.TestScript.LoginTest@26653222]" name="configAM" is-config="true" duration-ms="3007" started-at="2019-07-15T22:19:26Z" finished-at="2019-07-15T22:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.ActiTime.TestScript.LoginTest@26653222]" name="configAC" is-config="true" duration-ms="0" started-at="2019-07-15T22:19:29Z" finished-at="2019-07-15T22:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.ActiTime.TestScript.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
